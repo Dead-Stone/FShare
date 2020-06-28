@@ -1,0 +1,7 @@
+./Secure File Sharing System/*.log
+./Secure File Sharing System/build/*
+./Secure File Sharing System/dist/*
+./Secure File Sharing System/nbproject/*
+./Secure File Sharing System/build.xml
+./Secure File Sharing System/mysql-connector-java-5.1.5-bin.jar
+
