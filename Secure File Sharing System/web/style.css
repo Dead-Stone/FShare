@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Yatra+One&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-color: #c9c9c9;
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+/*    height: 100vh;*/
+  
+}
+
+.bg-indigo {
+    background-color: black;
+}
+
+.navbar a {
+    font-family: 'Yatra One';
+    font-weight: bold;
+}
+
+#first {
+    display: flex;
+}
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+    font-size: 45px;
+    color: white;
+}
+
+.cursive1 {
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+    font-size: 60px;
+    color: white;
+}
+
+header {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 28vh;
+}
+
+/* Login Form */
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+.searchbox{
+    border-radius: 0.2rem;
+    background-color: #cccccc;
+    width: 50%;
+}
+.search-bar {
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    margin-right: 4rem;
+    text-align: center;
+    padding-bottom:  1rem;
+    
+    padding-top:  0.5rem;
+    
+}
+.closebutton{
+    text-align: right;
+    margin-left: 61%;
+    margin-top: 1%;
+    background: transparent;
+    border:none;
+    color:  #777;
+      font-family: "Courgette", cursive;
+      padding-left: 0.5rem;
+      padding-right:  0.5rem;
+     padding-top: 0.3rem;      
+}
+.closebutton:hover{
+    background: grey;
+    color: white;
+    border-radius: 0.15rem; 
+    
+}
+
+.searchsubmit{
+    transition: 0.25s;
+  border: none;
+  outline: none;
+  color: black;
+  background: #cccccc;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+.searchsubmit:hover{
+    transition: 0.25s;
+  border: none;
+  outline: none;
+  color: white;
+  background: #495057;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group input,
+textarea {
+    height: auto;
+    border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder,
+.form-label-group textarea::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown),
+.form-label-group textarea:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}
+
+.form-label-group textarea:not(:placeholder-shown)~label {
+    padding-top: 0px;
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 16px;
+}
+
+/* Validation */
+
+
+/* input[type=radio],
+input:invalid:focus,
+textarea:invalid:focus {
+    border-color: tomato;
+    box-shadow: 0 0 8px tomato;
+    color: tomato;
+}
+
+
+input[type=radio],
+input:valid:focus,
+textarea:valid:focus {
+    border-color: rgb(110, 167, 26);
+    box-shadow: 0 0 8px rgb(110, 167, 26);
+    color: rgb(110, 167, 26);
+}
+
+input[type="radio"],
+input:valid:not(:focus),
+textarea:valid:not(:focus) {
+    border-color: rgb(110, 167, 26);
+    box-shadow: 0 0 8px rgb(110, 167, 26);
+    color: rgb(110, 167, 26);
+} */
+.title1{
+    icon:url('logo.jpg'); 
+}
+.form-label-group>label {
+    left: auto;
+}
